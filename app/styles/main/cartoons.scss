@@ -1,0 +1,72 @@
+
+.Cartoons-page {
+  .wrapper {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .cartoon {
+    position: relative;
+    float: left;
+    margin: 0px;
+    overflow: hidden;
+    width: calc(100% / 2);
+    padding-bottom: calc(100% / 2);
+
+    a, .title-box {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+		}
+
+		a {
+			background-color: #eee;
+			z-index: 12;
+		}
+
+		img {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: 4;
+		}
+
+		.title-box{
+			z-index: 10;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.weui-media-box__title{
+			color: #fff;
+			padding: 0 .4em;
+			max-width: calc(100% / 1.2);
+		}
+
+		// .weui-loadmore{
+		// 	width: auto;
+		// 	position: absolute;
+		// 	bottom: .4em;
+		// 	right: .4em;
+		// 	z-index: 2;
+		// 	margin: 0;
+		// }
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

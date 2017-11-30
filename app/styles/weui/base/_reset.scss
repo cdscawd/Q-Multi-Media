@@ -1,0 +1,29 @@
+@import "fn";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.6;
+    font-family: $weuiFontDefault;
+    max-width: 740px;
+    margin: 0 auto;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    @include setTapColor();
+}

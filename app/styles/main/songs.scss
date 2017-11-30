@@ -1,0 +1,39 @@
+
+.Songs-page {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .weui-media-box__hd{
+    margin-right: 0;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .weui-media-box__bd {
+    height: 60px;
+    margin-left: .8em;
+    display: flex;
+    align-items: center;
+  }
+
+  .weui-media-box__title{
+    margin-bottom: .2em
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
